@@ -1,9 +1,9 @@
-package com.movie.dto;
+package com.movie.movie.dto;
 
 import lombok.Getter;
 
 @Getter
-public class UpdateMovieResponse {
+public class CreateMovieResponse {
 
     private final Long id;
     private final String title;
@@ -11,7 +11,7 @@ public class UpdateMovieResponse {
     private final String password;
     private final String phoneNumber;
 
-    public UpdateMovieResponse(Long id, String title, String email, String password, String phoneNumber) {
+    public CreateMovieResponse(Long id, String title, String email, String password, String phoneNumber) {
         this.id = id;
         this.title = title;
         this.email = email;

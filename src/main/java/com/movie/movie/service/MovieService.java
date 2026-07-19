@@ -1,8 +1,8 @@
-package com.movie.service;
+package com.movie.movie.service;
 
-import com.movie.dto.*;
-import com.movie.entity.Movie;
-import com.movie.repository.MovieRepository;
+import com.movie.movie.dto.*;
+import com.movie.movie.entity.Movie;
+import com.movie.movie.repository.MovieRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
